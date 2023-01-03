@@ -1,3 +1,4 @@
+import br.com.dio.dominio.Conteudo;
 import br.com.dio.dominio.Curso;
 import br.com.dio.dominio.Mentoria;
 
@@ -13,6 +14,7 @@ public class Main {
 
         Curso curso2 = new Curso();
 
+
         curso2.setTitulo("curso em java script");
         curso2.setDescricao("descrição do curso em java script");
         curso2.setCargaHoraria(4);
@@ -22,8 +24,8 @@ public class Main {
         mentoria.setDescricao("decrição mentoria java");
         mentoria.setData(LocalDate.now());
 
-        System.out.println(curso1);
+        /*System.out.println(curso1);
         System.out.println(curso2);
-        System.out.println(mentoria);
+        System.out.println(mentoria); */
     }
 }
